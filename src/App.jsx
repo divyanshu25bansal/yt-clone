@@ -14,7 +14,7 @@ const App = () => {
       {/* after these routes will be returned Home is the default one */}
       <Routes>
         <Route path="/" element={<Home  sidebar={sidebar} />} />
-        <Route path="/video/:categoryId/:videoid" element ={<Video/>} />
+        <Route path="/video/:categoryId/:videoId" element ={<Video/>} />
       </Routes>
     </div>
   );

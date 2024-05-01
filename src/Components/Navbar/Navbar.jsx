@@ -8,6 +8,7 @@ import notification from '../../assets/notification.png'
 import profile from '../../assets/jack.png'
 import more from '../../assets/more.png'
 import { Link } from 'react-router-dom'
+import no from '../../assets/no.png'
 
 
 
@@ -17,7 +18,7 @@ const Navbar = ({setsidebar}) => {
         <div className="nav-left flex-div">
             <img className='menu_icon' src={menu_icon} alt="" onClick={()=>setsidebar(prev=>prev?false:true)} />
             {/* through setsidebar menu can be closed and opened again and again */}
-            <Link to='/'> <img className='logo' src={logo} alt="" /></Link>
+            <Link to='/'> <img className='logo' src={no} alt="" /></Link>
         </div>
         <div className="nav-middle flex-div">
            <div className="search-box">
