@@ -143,6 +143,7 @@
 @media (max-width:900px) {
     .play-video{
         flex-basis: 100%;
+        padding-left: 0%;
     }
     .play-video iframe{
         width: 100%;
